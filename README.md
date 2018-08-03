@@ -37,7 +37,7 @@ catch(any excpt) {
 ```
 
 * authenticate
-```
+
 try {
 	result = hydro.authenticate(hydroAddressId);
 	writeDump(result);
