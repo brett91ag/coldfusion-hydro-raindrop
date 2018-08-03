@@ -96,3 +96,5 @@ try {
 catch(any excpt) {
 	writeDump(excpt);
 }
+
+* A demo client-side application is available at demo/index.cfm
