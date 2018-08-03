@@ -37,7 +37,7 @@ catch(any excpt) {
 ```
 
 * authenticate
-
+```
 try {
 	result = hydro.authenticate(hydroAddressId);
 	writeDump(result);
@@ -96,5 +96,6 @@ try {
 catch(any excpt) {
 	writeDump(excpt);
 }
+```
 
 * A demo client-side application is available at demo/index.cfm
