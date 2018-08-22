@@ -193,7 +193,7 @@
 		<input type="hidden" name="action" value="register">
 		<input type="text" name="username" placeholder="Username" required="true"><br/>
 		<input type="password" name="password" placeholder="Password" required="true"><br/>
-		<input type="password2" name="password2" placeholder="Repeat Password" required="true"><br/>
+		<input type="password" name="password2" placeholder="Repeat Password" required="true"><br/>
 		<input type="submit" name="register" value="Register">
 	</form>
 
