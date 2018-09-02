@@ -55,7 +55,7 @@
 		<cfset SESSION.confirmed = "1">
 		<cfcatch>
 			<!--- <cfdump var="#cfcatch#"> --->
-			<div style="color:red;padding:10px">Authentification failed</div>
+			<div style="color:red;padding:10px">Authentication failed</div>
 		</cfcatch>
 	</cftry>
 
@@ -66,7 +66,7 @@
 		<cfset SESSION.do2FA = False>
 		<cfset SESSION.loggedIn = True>
 		<cfcatch>
-			<div style="color:red;padding:10px">Authentification failed</div>
+			<div style="color:red;padding:10px">Authentication failed</div>
 		</cfcatch>
 	</cftry>
 
